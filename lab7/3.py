@@ -26,7 +26,7 @@ while not done:
         w,h=screen.get_size()
         x=c(x,r,w-r)
         y=c(y,r,h-r)
-        pygame.draw.circle(screen, (255,0,0), (x,y),25,0)
+        pygame.draw.circle(screen, (0,0,255), (x,y),25,0)
         
         pygame.display.flip()
         clock.tick(60)

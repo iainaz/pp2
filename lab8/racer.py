@@ -147,8 +147,8 @@ while True:
             entity.kill()
              
     time.sleep(2)
-    pygame.quit()
-    sys.exit()
+pygame.quit()
+sys.exit()
     
 pygame.display.update()
 frampersec.tick(FPS)
